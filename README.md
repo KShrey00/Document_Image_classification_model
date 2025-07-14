@@ -45,21 +45,21 @@ Or manually install core packages:
 ```bash
 pip install tensorflow scikit-learn matplotlib
 ```
-##Training
+## Training
 
 To train the model, simply run the notebook:
 ```bash
 doc_classifier.ipynb
 ```
 You can also upload the Tobacco_data/ folder via Google Drive or manually zip → upload → unzip in Colab.
-##Evaluation
+## Evaluation
 
 After training, the model is evaluated using the validation set, and classification metrics are printed:
 ```bash
 from sklearn.metrics import classification_report
 print(classification_report(y_true, y_pred, target_names=class_labels))
 ```
-##Saving the Model
+## Saving the Model
 
 To save the trained model:
 ```bash

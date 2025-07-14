@@ -65,7 +65,7 @@ To save the trained model:
 ```bash
 model.save("document_classifier_model.h5")
 ```
-##Author
+### Author
 Shreya Kumari
 
 
